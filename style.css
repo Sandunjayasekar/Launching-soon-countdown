@@ -73,3 +73,33 @@
     font-weight: 500;
     margin-bottom: 1px;
 }
+
+.rocket {
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket {
+    0% {
+        bottom: 0;
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        bottom: 108%;
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
