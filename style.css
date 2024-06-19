@@ -57,3 +57,19 @@
     width: 15px;
     margin-left: 10px;
 }
+
+.launch-time {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 1px;
+}
